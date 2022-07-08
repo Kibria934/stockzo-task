@@ -8,7 +8,11 @@ const Banner = () => {
         id="Home"
         className="flex  lg:flex-row flex-col md:flex-row mx-16 justify-between h-[90vh] items-center"
       >
-        <div className="flex-1 lg:order-1 order-2 lg:w-96">
+        <div
+          data-aos="fade-up-left"
+          data-aos-duration="1500"
+          className="flex-1 lg:order-1 order-2 lg:w-96"
+        >
           <h1 className="text-7xl font-bold py-6">Market Forecast</h1>
           <p className="lg:w-[500px] md:w-[350px] lg:mr-5 flex-wrap text-xl pb-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

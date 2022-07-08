@@ -6,7 +6,11 @@ import footer1 from "../Assets/Images/footer.jpg";
 const Footer = () => {
   return (
     <div>
-      <footer class="footer pt-20 p-10 bg-base-200 text-base-content">
+      <footer
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        class="footer pt-20 p-10 bg-base-200 text-base-content"
+      >
         <div className="text-xl font-semibold">
           <span class=" text-5xl font-bold text-black">Stockzo</span>
           <a class="footer-title">0123456789</a>

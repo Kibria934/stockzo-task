@@ -5,6 +5,8 @@ const Stockzo = () => {
   return (
     <section>
       <div
+        data-aos="fade-up-right"
+        data-aos-duration="2000"
         id="Home"
         className="flex mb-96 lg:mb-64 md:64 mt-32 mt-64 lg:flex-row flex-col md:flex-row mx-16 justify-between h-[90vh] items-center"
       >

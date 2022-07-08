@@ -4,6 +4,9 @@ const ReviewCart = ({ width, indexNo, headLine }) => {
   return (
     <div>
       <div
+        data-aos="fade-up"
+        // data-aos-anchor-placement="top-bottom"
+        data-aos-duration="2000"
         className={`card lg:w-[${width}] lg:ml-16 md:w-[300px] m-3 rounded-none rounded-tr-3xl rounded-br-3xl  hover:bg-black lg:h-[450px] text-black bg-base-300 shadow-xl hover:text-white`}
       >
         <div class="card-body">

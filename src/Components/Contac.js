@@ -5,12 +5,16 @@ const Contac = () => {
   return (
     <div className="bg-black p-5 text-white">
       <section className="flex sm:w-full xs:w-full lg:w-11/12 mx-auto lg:h-[80vh] lg:flex-row flex-col items-center w-full justify-evenly">
-        <div className="flex-1">
+        <div data-aos="fade-right" data-aos-duration="2000" className="flex-1">
           <figure className="lg:mr-6 md:mr-6">
             <img className="" src={contact} alt="" />
           </figure>
         </div>
-        <div className="flex-1 mt-6">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="2000"
+          className="flex-1 mt-6"
+        >
           <section>
             <h1 className="text-xl">
               Contact Us Now <br />

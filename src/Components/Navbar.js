@@ -41,6 +41,9 @@ const Navbar = () => {
                 <a>BLOGS</a>
               </li>
               <li>
+                <a>CONTACT</a>
+              </li>
+              <li>
                 <span>
                   <BsTwitter />
                   <AiFillInstagram />
@@ -66,6 +69,9 @@ const Navbar = () => {
             </li>
             <li className="hover:border-b-4 border-black active:border-b-4">
               <a>BLOGS</a>
+            </li>
+            <li className="hover:border-b-4 border-black active:border-b-4">
+              <a>CONTACT</a>
             </li>
             <li>
               <a>

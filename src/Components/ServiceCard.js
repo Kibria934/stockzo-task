@@ -2,7 +2,7 @@ import React from "react";
 
 const ServiceCard = ({ img, headLine }) => {
   return (
-    <div>
+    <div data-aos="fade-up" data-aos-duration="3000">
       <div class="card card-compact w-full px-4 text-black md:w-[96] lg:h-[680px] md:w-[280px] lg:w-96 hover:bg-black rounded-tl-none rounded-bl-none border-2 hover:text-white rounded-tr-xl rounded-br-xl">
         <figure>
           <img className="bg-white" src={img} alt="" />

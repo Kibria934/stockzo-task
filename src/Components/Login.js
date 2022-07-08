@@ -3,7 +3,13 @@ import pic4 from "../Assets/Images/pic4.jpg";
 
 const Login = () => {
   return (
-    <div class="heroSection mt-28 items-center flex lg:w-full h-screen ">
+    <div
+      data-aos="fade-left"
+      data-aos-anchor="#example-anchor"
+      data-aos-offset="500"
+      data-aos-duration="2000"
+      class="heroSection mt-28 items-center flex lg:w-full h-screen "
+    >
       <div class=" flex-shrink-0 lg:ml-10 md:ml-10 pl-3 lg:w-96">
         <div class="">
           <h1 className="lg:text-5xl py-4 font-bold">
