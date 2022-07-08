@@ -1,5 +1,8 @@
 import React from "react";
 import Banner from "../Components/Banner";
+import Blog from "../Components/Blog";
+import Contac from "../Components/Contac";
+import Footer from "../Components/Footer";
 import Login from "../Components/Login";
 import Navbar from "../Components/Navbar";
 import Review from "../Components/Review";
@@ -17,6 +20,9 @@ const Home = () => {
       <TeamSection />
       <Login />
       <Review />
+      <Blog />
+      <Contac />
+      <Footer />
     </div>
   );
 };
