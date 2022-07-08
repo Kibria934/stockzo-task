@@ -8,11 +8,11 @@ const Services = () => {
   return (
     <div>
       <div className="grid mb-20 lg:grid-cols-3 gap-10 hover:border-0 lg:w-11/12 mx-auto md:grid-cols-2 grid-cols-1">
-        <div className="h-[600px] lg:w-96 items-center flex">
+        <div className="h-[600px] pl-5 lg:w-96 items-center flex">
           <h1>
             <span className="my-10">Services</span>
             <br />
-            <span className="text-5xl text-[black] font-bold pt-10">
+            <span className="lg:text-5xl md:text-4xl  text-3xl text-[black] font-bold pt-10">
               Check Out Our Specialized Services
             </span>
           </h1>

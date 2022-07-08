@@ -3,10 +3,10 @@ import pic4 from "../Assets/Images/pic4.jpg";
 
 const Login = () => {
   return (
-    <div class="heroSection mt-28 items-center flex w-full h-screen ">
-      <div class=" flex-shrink-0 ml-10 w-96">
+    <div class="heroSection mt-28 items-center flex lg:w-full h-screen ">
+      <div class=" flex-shrink-0 lg:ml-10 md:ml-10 pl-3 lg:w-96">
         <div class="">
-          <h1 className="text-5xl py-4 font-bold">
+          <h1 className="lg:text-5xl py-4 font-bold">
             Hello! <br /> Good Morning
           </h1>
           <p className="text-2xl medium pb-5">Log in your account</p>
@@ -17,7 +17,7 @@ const Login = () => {
             <input
               type="text"
               placeholder=""
-              class="bg-transparent border-b-2 border-dashed outline-0"
+              class="bg-transparent w-[100px] lg:w-full border-b-2 border-dashed outline-0"
             />
           </div>
           <div class="form-control">

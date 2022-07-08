@@ -4,8 +4,8 @@ import { AiFillInstagram } from "react-icons/ai";
 
 const Navbar = () => {
   return (
-    <div>
-      <div class="navbar z-50 h-20 shadow-xl text-2xl">
+    <div className="z-50 bg-base-50">
+      <div class="navbar h-20 shadow-xl text-2xl">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
