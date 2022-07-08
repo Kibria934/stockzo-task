@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../Components/Banner";
 import Login from "../Components/Login";
 import Navbar from "../Components/Navbar";
+import Review from "../Components/Review";
 import Services from "../Components/Services";
 import Stockzo from "../Components/Stockzo";
 import TeamSection from "../Components/TeamSection";
@@ -15,6 +16,7 @@ const Home = () => {
       <Services />
       <TeamSection />
       <Login />
+      <Review />
     </div>
   );
 };

@@ -1,9 +1,20 @@
 import React from "react";
+import ReviewCart from "./ReviewCart";
 
 const Review = () => {
   return (
-    <div>
-      <h4>This is review section</h4>
+    <div className="mt-32 mx-auto w-10/12">
+      <h4 className="text-6xl font-bold py-5 pl-4">
+        Here ’s what our users have to say:
+      </h4>
+      <section className="flex flex-wrap">
+        <ReviewCart indexNo={"01"} headLine={"KATIDHAN"} />
+        <ReviewCart
+          indexNo={"02"}
+          headLine={"Head of Strategic Marketing,ITCompany"}
+        />
+        <ReviewCart indexNo={"03"} headLine={"Abhay Gupta"} />
+      </section>
     </div>
   );
 };

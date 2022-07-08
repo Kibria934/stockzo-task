@@ -10,7 +10,7 @@ const Banner = () => {
       >
         <div className="flex-1 lg:order-1 order-2 lg:w-96">
           <h1 className="text-7xl font-bold py-6">Market Forecast</h1>
-          <p className="lg:w-[600px] text-xl pb-5">
+          <p className="lg:w-[500px] md:w-[350px] lg:mr-5 flex-wrap text-xl pb-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -20,8 +20,8 @@ const Banner = () => {
             Get started
           </button>
         </div>
-        <div className="flex-1 lg:order-1 order-1 mt-10">
-          <img width={"800px"} src={banner} alt="" />
+        <div className="flex-1 z-10 lg:h-[400px] md:h-[300px] md:mr-8 border-2 lg:w-[800px] lg:order-1 order-1">
+          <img src={banner} alt="" />
         </div>
       </div>
     </section>

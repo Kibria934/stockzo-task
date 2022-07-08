@@ -7,7 +7,7 @@ import { TbBulb } from "react-icons/tb";
 const Services = () => {
   return (
     <div>
-      <div className="grid mb-20 lg:grid-cols-3 gap-10 lg:w-10/12 mx-auto md:grid-cols-2 grid-cols-1">
+      <div className="grid mb-20 lg:grid-cols-3 gap-10 hover:border-0 lg:w-11/12 mx-auto md:grid-cols-2 grid-cols-1">
         <div className="h-[600px] lg:w-96 items-center flex">
           <h1>
             <span className="my-10">Services</span>

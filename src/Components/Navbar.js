@@ -5,7 +5,7 @@ import { AiFillInstagram } from "react-icons/ai";
 const Navbar = () => {
   return (
     <div>
-      <div class="navbar  h-28 shadow-xl text-2xl">
+      <div class="navbar z-50 h-20 shadow-xl text-2xl">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -32,10 +32,10 @@ const Navbar = () => {
                 <a href="#Home">HOME</a>
               </li>
               <li tabindex="0">
-                <a class="justify-between">ABOUT US</a>
+                <a class="justify-between">ABOUT</a>
               </li>
               <li>
-                <a>LOGIN UP</a>
+                <a>LOGIN</a>
               </li>
               <li>
                 <a>BLOGS</a>
@@ -59,10 +59,10 @@ const Navbar = () => {
               <a href="#Home">HOME</a>
             </li>
             <li className="hover:border-b-4 border-black active:border-b-4">
-              <a>ABOUT US</a>
+              <a>ABOUT</a>
             </li>
             <li className="hover:border-b-4 border-black active:border-b-4">
-              <a>LOGIN UP</a>
+              <a>LOGIN</a>
             </li>
             <li className="hover:border-b-4 border-black active:border-b-4">
               <a>BLOGS</a>
